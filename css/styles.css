@@ -211,8 +211,25 @@ footer section a img{
     grid-column: 1 / span 2;
 }
 
-
-
+/* -------Contacto------- */
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(75, 71, 71);
+}
+.preguntas h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+.preguntas div{
+    width: 50%;
+}
+.preguntas div div{
+    width: 100%;
+}
 
 /* --------------Media query---------*/
 
@@ -289,7 +306,9 @@ footer section a img{
     .int1{
         grid-column: 1 / span 2;
     }
-    
+    .preguntas div{
+        width: 100%;
+    }
 }
 
 @media screen and ( max-width:700px){
