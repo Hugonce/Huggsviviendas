@@ -216,7 +216,7 @@ footer section a img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(97, 91, 91);
+    background-color: rgb(34, 13, 126);
 }
 .preguntas h2{
     font-family: 'Barlow Condensed', sans-serif;
@@ -231,6 +231,27 @@ footer section a img{
     width: 100%;
 }
 
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(14, 47, 90);
+}
+.informacion h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+.informacion form{
+    width: 50%;
+}
+.informacion form div label{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
 /* --------------Media query---------*/
 
 @media screen and (max-width:1600px) and (min-width:1001px){
