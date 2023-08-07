@@ -1,0 +1,56 @@
+/*-------Galeria-------*/
+
+.casas{
+    background-color: black;
+    h2{
+        @include letra (500, 50px);
+        text-align: center;
+        color: white;
+    }
+    div{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 400px;
+        gap: 20px;
+        img{
+            @include medidas(100%, 100%);
+        }
+    }
+}
+
+.presenta-interior{
+    @include flex (flex, column, space-evenly, center, wrap);
+    background-color: burlywood;
+    div{
+        width: 700px;
+        h2{
+            @include letra (500, 40px);
+            color: rgb(0, 0, 0);
+        }
+        p{
+            @include letra (400, 25px);
+            color: black;
+        }
+    }
+    img{
+        @include medidas(100%, 500px);
+    }
+}
+
+.interiores{
+            background-color: rgb(165, 101, 17);
+            h2{
+                text-align: center;
+                @include letra (500, 50px);
+                color: black;
+            }
+            div{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 20px;
+                grid-template-rows: 400px;
+                img{
+                    @include medidas(100%, 100%);
+                }
+            }
+}

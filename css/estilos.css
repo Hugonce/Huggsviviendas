@@ -1,2 +1,178 @@
-h2 {
-  color: blue; }
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* -------Reset------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Barlow Condensed', sans-serif; }
+
+.container-fluid {
+  background-color: #b8b0b0; }
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: #b8b0b0; }
+
+.navbar-brand img {
+  width: 70px;
+  height: 80px; }
+
+.carousel-inner div img {
+  width: 100%;
+  height: 75vh; }
+
+.carousel-inner div div h5 {
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+  background-color: #b8b0b0; }
+
+.carousel-inner div div p {
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  background-color: #b8b0b0; }
+
+/*-------Header-------*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+
+/*-------Index-------*/
+.frase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(../img/fondo-2.jpg);
+  padding: 5px; }
+  .frase div h2 {
+    font-weight: 500;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 30px; }
+  .frase div p {
+    font-weight: 400;
+    font-size: 25px;
+    color: white; }
+
+.despedida {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #4bb6b6;
+  padding: 5px; }
+  .despedida div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .despedida div h2 {
+      font-weight: 500;
+      font-size: 50px;
+      color: black; }
+    .despedida div p {
+      font-weight: 400;
+      font-size: 25px;
+      color: black; }
+    .despedida div a {
+      text-decoration: none;
+      color: black; }
+      .despedida div a p {
+        font-weight: 600;
+        font-size: 25px;
+        border: 2px black solid;
+        background-color: red; }
+      .despedida div a img {
+        width: 50px;
+        height: 50px; }
+  .despedida img {
+    width: 350px;
+    height: 300px; }
+
+/*-------Galeria-------*/
+.casas {
+  background-color: black; }
+  .casas h2 {
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    color: white; }
+  .casas div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 400px;
+    gap: 20px; }
+    .casas div img {
+      width: 100%;
+      height: 100%; }
+
+.presenta-interior {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: burlywood; }
+  .presenta-interior div {
+    width: 700px; }
+    .presenta-interior div h2 {
+      font-weight: 500;
+      font-size: 40px;
+      color: black; }
+    .presenta-interior div p {
+      font-weight: 400;
+      font-size: 25px;
+      color: black; }
+  .presenta-interior img {
+    width: 100%;
+    height: 500px; }
+
+.interiores {
+  background-color: #a56511; }
+  .interiores h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: black; }
+  .interiores div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    grid-template-rows: 400px; }
+    .interiores div img {
+      width: 100%;
+      height: 100%; }
+
+/*-------Footer-------*/
+footer {
+  background-color: #b8b0b0; }
+  footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+    footer section a img {
+      width: 70px;
+      height: 80px; }
+    footer section .redes p {
+      font-weight: 500;
+      font-size: 20px; }
+    footer section .redes a img {
+      width: 35px;
+      height: 35px;
+      margin: 5px; }
+    footer section .contenido p {
+      font-weight: 500;
+      font-size: 20px; }
+    footer section .contenido a img {
+      width: 35px;
+      height: 35px;
+      margin: 5px; }

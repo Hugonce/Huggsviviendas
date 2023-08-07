@@ -1,0 +1,28 @@
+$paleta-colores:
+red,
+blue,
+black,
+white,
+yellow;
+
+@mixin grid-column ($inicio, $final){
+        grid-column: $inicio / $final;
+}
+
+@mixin flex ($flex, $direction, $justify, $align, $responsive){
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $responsive;
+}
+
+@mixin medidas ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin letra($fweight, $fsize,){
+    font-weight: $fweight;
+    font-size: $fsize;
+}

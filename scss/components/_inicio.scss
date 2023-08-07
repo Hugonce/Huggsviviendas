@@ -1,0 +1,61 @@
+/*-------Index-------*/
+
+.hero{
+
+}
+
+.frase{
+    @include flex (flex, row, space-evenly, center, wrap);
+    background-image: url(../img/fondo-2.jpg);
+    padding: 5px;
+    div{
+        h2{
+            @include letra (500, 50px);
+            color: black;
+            margin-bottom: 30px;
+        }
+        p{
+            @include letra (400, 25px);
+            color: white; 
+        }
+    }
+    iframe{
+
+    }
+}
+
+.despedida{
+    @include flex (flex, row, space-evenly, center, wrap);
+    background-color: rgb(75, 182, 182);
+    padding: 5px;
+    div{
+        @include flex (flex, column, center, center, wrap);
+        h2{
+            @include letra (500, 50px);
+            color: black;
+        }
+        p{
+            @include letra (400, 25px);
+            color: black;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            p{
+                @include letra (600, 25px);
+                border: 2px black solid;
+                background-color: red;
+            }
+            img{
+                @include medidas(50px, 50px);
+            }
+        }
+        iframe{
+
+        }
+    }
+    img{
+        @include medidas(350px, 300px);
+    }
+
+}
