@@ -434,7 +434,7 @@ footer section a img{
 
 @media screen and (max-width: 500px){
 
-    .casas{
+    .casas div{
         grid-template-columns: 1fr;
         grid-template-rows: 300px;
         gap: 10px;
