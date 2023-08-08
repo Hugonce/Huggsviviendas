@@ -1,0 +1,90 @@
+/*-------Compra y Venta-------*/
+
+.compra-casa{
+    h2{
+        @include letra (600, 50px)
+    }
+    h3{
+        @include letra (500, 35px)
+    }
+    section{
+        @include flex(flex, row, space-evenly, center, wrap);
+        background-color: rgb(184, 176, 176);
+        border: 5px blue solid;
+        img{
+            @include medidas (700px, 500px);
+            padding: 10px 0 10px 0;
+        }
+        div{
+            width: 500px;
+            h3{
+                @include letra (500, 25px)
+            }
+            p{
+                @include letra (400, 20px)
+            }
+        }
+    }
+}
+
+.alquila{
+    h2{
+        @include letra (600, 50px)
+    }
+    h3{
+        @include letra (500, 35px)
+    }
+    section{
+        @include flex(flex, row, space-evenly, center, wrap);
+        background-color: rgb(184, 176, 176);
+        border: 5px blue solid;
+        div{
+            width: 500px;
+            h3{
+                @include letra (500, 25px)
+            }
+            p{
+                @include letra (400, 20px)
+            }
+        }
+        img{
+            @include medidas (700px, 550px);
+            padding: 10px 0 10px 0;
+        }
+    }
+}
+
+.departamento{
+    h2{
+        @include letra (600, 50px)
+    }
+    h3{
+        @include letra (500, 35px)
+    }
+    div{
+        @include flex(flex, row, space-evenly, center, wrap);
+        .tarjeta{
+            border: 3px blue solid;
+            width: 700px;
+            padding: 10px 0 10px 0;
+            img{
+                @include medidas (400px, 400px)
+            }
+            div{
+                width: 250px;
+                @include flex(flex, column, space-between, center, wrap);
+                h4{
+                    @include letra (400, 25px);
+                }
+                p{
+                    @include letra (400, 20px)
+                }
+                h5{
+                    border: 2px red solid;
+                    @include letra (400, 25px)
+                }
+            }
+            
+        }
+    }
+}

@@ -1,9 +1,5 @@
 /*-------Index-------*/
 
-.hero{
-
-}
-
 .frase{
     @include flex (flex, row, space-evenly, center, wrap);
     background-image: url(../img/fondo-2.jpg);
@@ -19,9 +15,6 @@
             color: white; 
         }
     }
-    iframe{
-
-    }
 }
 
 .despedida{
@@ -29,7 +22,7 @@
     background-color: rgb(75, 182, 182);
     padding: 5px;
     div{
-        @include flex (flex, column, center, center, wrap);
+        @include flex (flex, column, space-evenly, center, wrap);
         h2{
             @include letra (500, 50px);
             color: black;
@@ -47,11 +40,8 @@
                 background-color: red;
             }
             img{
-                @include medidas(50px, 50px);
+                @include medidas(50px, 50px)
             }
-        }
-        iframe{
-
         }
     }
     img{

@@ -5,8 +5,12 @@ black,
 white,
 yellow;
 
-@mixin grid-column ($inicio, $final){
-        grid-column: $inicio / $final;
+
+@mixin grid ($grid, $template-columns, $template-rows, $gap){
+    display: $grid;
+    grid-template-columns: $template-columns;
+    grid-template-rows: $template-rows;
+    gap: $gap;
 }
 
 @mixin flex ($flex, $direction, $justify, $align, $responsive){

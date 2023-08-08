@@ -1,0 +1,254 @@
+/*-------Mediaquery-------*/
+
+@media screen and (max-width:1600px) and (min-width:1001px){
+    .casas{
+        div{
+            @include grid (grid, repeat(4, 1fr), 400px, 20px);
+            .vivienda6{
+                grid-column: 2 / 4;
+            }
+            .vivienda7{
+                grid-column: 4 / 5;
+            }
+            .vivienda8{
+                grid-column: 1 / 3;
+            }
+            .vivienda9{
+                grid-column: 3 / 5;
+            }
+            .vivienda10{
+                grid-column: 1 / 3;
+            }
+            .vivienda13{
+                grid-column: 1 / 3;
+            }
+            .vivienda14{
+                grid-column: 3 / 5;
+            }
+            .vivienda15{
+                grid-column: 1 / 3;
+            }
+            .vivienda16{
+                grid-column: 3 / 5;
+            }
+        }
+    }
+    
+    .interiores {
+        div{
+            @include grid (grid, repeat(4, 1fr), 400px, 20px);
+            .int1{
+                grid-column: 1 / 3;
+            }
+            .int4{
+                grid-column: 1 / 3;
+            }
+            .int5{
+                grid-column: 3 / 5;
+            }
+            .int7{
+                grid-column: 2 / 3;
+                height: 100%;
+            }
+            .int8{
+                grid-column: 3 / 5;
+                height: 600px;
+            }   
+        }
+    }
+}
+
+@media screen and ( max-width:1000px){
+    .casas {
+        div{
+            @include grid (grid, repeat(3, 1fr), 400px, 20px);
+            .vivienda6{
+                grid-column: 3/ 4;
+            }
+            .vivienda7{
+                grid-column: 1 /  2;
+            }
+            .vivienda8{
+                grid-column: 2 / 4;
+            }
+            .vivienda10{
+                grid-column: 2 / 4;
+            }
+            .vivienda13{
+                grid-column: 3 / 4;
+            }
+        }
+    }
+
+.interiores {
+    div{
+        @include grid (grid, repeat(3, 1fr), 400px, 20px);
+        .int1{
+            grid-column: 1 / 3;
+        }
+        .int4{
+            grid-column: 2 / 4;
+        }
+        .int5{
+            grid-column: 1 / 2;
+        }
+        .int7{
+            grid-column: 3 / 4;
+            height: 100%;
+        }
+        .int8{
+            grid-column: 1 / 4;
+            height: 700px;
+        } 
+    }
+    }
+.preguntas{
+    div{
+        width: 100%;
+    }
+} 
+}
+
+@media screen and ( max-width:700px){
+    .compra-casa {
+        section {
+            img{
+                @include medidas (350px, 400px);
+            }
+        }
+    }
+    .alquila {
+        section {
+            img{
+                @include medidas (350px, 400px);
+            }
+        }
+    }
+    .casas {
+        div{
+            @include grid (grid, repeat(2, 1fr), 400px, 20px);
+            .vivienda1{
+                grid-column: 1 / 3;
+            }
+            .vivienda6{
+                grid-column: 1 / 3;
+            }
+            .vivienda7{
+                grid-column: 1 / 3;
+            }
+            .vivienda8{
+                grid-column: 1 / 3;
+            }
+            .vivienda9{
+                grid-column: 1 / 3;
+            }
+            .vivienda10{
+                grid-column: 1 / 3;
+            }
+            .vivienda13{
+                grid-column: 1 / 3;
+            }
+            .vivienda16{
+                grid-column: 1 / 3;
+            }
+        }
+    }
+    
+    .interiores {
+        div{
+            @include grid (grid, repeat(2, 1fr), 400px, 20px);
+            .int1{
+                grid-column: 1 / 3;
+            }
+            .int4{
+                grid-column: 1 / 2;
+            }
+            .int5{
+                grid-column: 2 / 3;
+            }
+            .int7{
+                grid-column: 2 / 3;
+                height: 100%;
+            }
+            .int8{
+                grid-column: 1 / 3;
+            } 
+        }
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+
+    .casas {
+        div{
+            @include grid (grid, repeat(1, 1fr), 300px, 10px);
+            .vivienda1{
+                grid-column: 1 / 2;
+            }
+            .vivienda6{
+                grid-column: 1/ 2;
+            }
+            .vivienda7{
+                grid-column: 1 /  2;
+            }
+            .vivienda8{
+                grid-column: 1 / 2;
+            }
+            .vivienda9{
+                grid-column: 1 / 2;
+            }
+            .vivienda10{
+                grid-column: 1 / 2;
+            }
+            .vivienda13{
+                grid-column: 1 / 2;
+            }
+            .vivienda16{
+                grid-column: 1 / 2;
+            }
+        }
+    }
+    
+    .interiores {
+        div{
+            @include grid (grid, repeat(1, 1fr), 300px, 10px);
+            .int1{
+                grid-column: 1 / 2;
+            }
+            .int4{
+                grid-column: 1 / 2;
+            }
+            .int5{
+                grid-column: 1 / 2;
+            }
+            .int7{
+                grid-column: 1 / 2;
+                height: 100%;
+            }
+            .int8{
+                grid-column: 1 / 2;
+            } 
+        }
+    }
+    footer {
+        section {
+            .redes{
+                a{
+                    img{
+                        @include medidas(25px, 25px);
+                        margin: 5px;
+                    }
+                }
+            }
+            .contenido {
+                a {
+                    img{
+                        @include medidas(25px, 25px);
+                        margin: 5px;
+                    }
+                }
+            }
+    }
+    }
+}

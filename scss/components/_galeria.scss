@@ -8,18 +8,27 @@
         color: white;
     }
     div{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 400px;
-        gap: 20px;
+        @include grid (grid, repeat(5, 1fr), 400px, 20px);
         img{
-            @include medidas(100%, 100%);
+            @include medidas(100%, 100%)
+        }
+        .vivienda6{
+            grid-column: 1/ 3;
+        }
+        .vivienda7{
+            grid-column: 3 / 5;
+        }
+        .vivienda10{
+            grid-column: 2 / 4;
+        }
+        .vivienda13{
+            grid-column: 1 / 3;
         }
     }
 }
 
 .presenta-interior{
-    @include flex (flex, column, space-evenly, center, wrap);
+    @include flex (flex, row, space-evenly, center, wrap);
     background-color: burlywood;
     div{
         width: 700px;
@@ -33,7 +42,7 @@
         }
     }
     img{
-        @include medidas(100%, 500px);
+        @include medidas(450px, 500px);
     }
 }
 
@@ -45,12 +54,16 @@
                 color: black;
             }
             div{
-                display: grid;
-                grid-template-columns: repeat(5, 1fr);
-                gap: 20px;
-                grid-template-rows: 400px;
+                @include grid (grid, repeat(5, 1fr), 400px, 20px);
                 img{
                     @include medidas(100%, 100%);
+                }
+                .int1{
+                    grid-column: 1 / 3;
+                }
+                .int7{
+                    grid-column: 3 / 5;
+                    @include medidas(100%, 700px);
                 }
             }
 }
