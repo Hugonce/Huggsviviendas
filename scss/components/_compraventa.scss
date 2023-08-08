@@ -3,16 +3,17 @@
 .compra-casa{
     background-color: nth($paleta-colores, 7);
     h2{
+        text-align: center;
         @include letra (600, 50px);
         color: nth($paleta-colores, 2);
     }
     h3{
+        text-align: center;
         @include letra (500, 35px);
         color: nth($paleta-colores, 2);
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
-        border: 5px blue solid;
         img{
             @include medidas (700px, 500px);
             padding: 10px 0 10px 0;
@@ -24,6 +25,7 @@
                 color: nth($paleta-colores, 2);
             }
             p{
+                text-align: center;
                 @include letra (400, 20px);
                 color: nth($paleta-colores, 2);
             }
@@ -34,16 +36,17 @@
 .alquila{
     background-color: nth($paleta-colores, 8);
     h2{
+        text-align: center;
         @include letra (600, 50px);
         color: nth($paleta-colores, 2);
     }
     h3{
+        text-align: center;
         @include letra (500, 35px);
         color: nth($paleta-colores, 2);
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
-        border: 5px blue solid;
         div{
             width: 500px;
             h3{
@@ -51,6 +54,7 @@
                 color: nth($paleta-colores, 2);
             }
             p{
+                text-align: center;
                 @include letra (400, 20px);
                 color: nth($paleta-colores, 2);
             }
@@ -65,17 +69,20 @@
 .departamento{
     background-color: nth($paleta-colores, 9);
     h2{
+        text-align: center;
         @include letra (600, 50px);
         color: nth($paleta-colores, 2);
     }
     h3{
+        text-align: center;
         @include letra (500, 35px);
         color: nth($paleta-colores, 2);
     }
     div{
         @include flex(flex, row, space-evenly, center, wrap);
         .tarjeta{
-            border: 3px blue solid;
+            border: 2px nth($paleta-colores, 10) solid;
+            margin: 5px;
             width: 700px;
             padding: 10px 0 10px 0;
             img{
@@ -89,6 +96,7 @@
                     color: nth($paleta-colores, 2);
                 }
                 p{
+                    text-align: center;
                     @include letra (400, 20px);
                     color: nth($paleta-colores, 2);
                 }

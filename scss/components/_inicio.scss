@@ -25,15 +25,15 @@
         @include flex (flex, column, space-evenly, center, wrap);
         h2{
             @include letra (500, 50px);
-            color: nth($paleta-colores, 1);
+            color: nth($paleta-colores, 6);
         }
         p{
             @include letra (400, 25px);
-            color: nth($paleta-colores, 1);
+            color: nth($paleta-colores, 2);
         }
         a{
             text-decoration: none;
-            color: nth($paleta-colores, 1);
+            color: nth($paleta-colores, 2);
             p{
                 @include letra (600, 25px);
                 border: 2px nth($paleta-colores, 1) solid;
