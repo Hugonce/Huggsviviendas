@@ -1,7 +1,7 @@
 /*-------Footer-------*/
 
 footer{
-    background-color: nth($paleta-colores, 5);
+    background-image: linear-gradient(to right, nth($paleta-colores, 8), nth($paleta-colores, 5));
     section{
         @include flex (flex, row, space-between, center, wrap);
         a{
@@ -15,8 +15,12 @@ footer{
                 }
                 a{
                     img{
+                        transition: 1s;
                         @include medidas(35px, 35px);
                         margin: 5px;
+                        &:hover{
+                            transform: scale(1.2);
+                        }
                     }
                 }
         }
@@ -26,8 +30,12 @@ footer{
                     }
                     a{
                         img{
+                            transition: 1s;
                             @include medidas(35px, 35px);
                             margin: 5px;
+                            &:hover{
+                                transform: scale(1.2);
+                            }
                         }
                     }
         }

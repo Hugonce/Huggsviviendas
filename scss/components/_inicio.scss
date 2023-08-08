@@ -41,8 +41,16 @@
                 padding: 5px;
                 margin: 5px;
                 color: nth($paleta-colores, 3);
+                transition: 1s;
+                &:hover{
+                    color: nth($paleta-colores, 4);
+                }
             }
             img{
+                transition: 2s;
+                &:hover{
+                    transform: scale(1.4);
+                }
                 @include medidas(50px, 50px)
             }
         }
