@@ -86,13 +86,16 @@ header {
       font-size: 25px;
       color: white; }
     .despedida div a {
-      text-decoration: none;
-      color: white; }
+      text-decoration: none; }
       .despedida div a p {
         font-weight: 600;
         font-size: 25px;
         border: 2px black solid;
-        background-color: red; }
+        border-radius: 15px;
+        background-color: #8EBBA7;
+        padding: 5px;
+        margin: 5px;
+        color: #3e20c4; }
       .despedida div a img {
         width: 50px;
         height: 50px; }
@@ -211,11 +214,17 @@ header {
           font-weight: 400;
           font-size: 20px;
           color: white; }
-        .departamento div .tarjeta div h5 {
-          border: 2px red solid;
-          font-weight: 400;
-          font-size: 25px;
-          color: white; }
+        .departamento div .tarjeta div a {
+          text-decoration: none; }
+          .departamento div .tarjeta div a h5 {
+            background-color: burlywood;
+            border: 2px black solid;
+            border-radius: 15px;
+            font-weight: 400;
+            font-size: 25px;
+            color: black;
+            padding: 5px;
+            margin: 5px; }
 
 /*-------Galeria-------*/
 .casas {
@@ -292,7 +301,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #3e20c4; }
+  background-color: #3A4741; }
   .preguntas h2 {
     font-weight: 500;
     font-size: 50px;
@@ -308,7 +317,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #3e20c4; }
+  background-color: #202723; }
   .informacion h2 {
     font-weight: 500;
     font-size: 50px;

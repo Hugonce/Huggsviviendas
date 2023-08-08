@@ -33,11 +33,14 @@
         }
         a{
             text-decoration: none;
-            color: nth($paleta-colores, 2);
             p{
                 @include letra (600, 25px);
                 border: 2px nth($paleta-colores, 1) solid;
-                background-color: nth($paleta-colores, 4);
+                border-radius: 15px;
+                background-color: nth($paleta-colores, 10);
+                padding: 5px;
+                margin: 5px;
+                color: nth($paleta-colores, 3);
             }
             img{
                 @include medidas(50px, 50px)

@@ -2,7 +2,7 @@
 
 .preguntas{
     @include flex(flex, column, center, center, wrap);
-    background-color: nth($paleta-colores, 3);
+    background-color: nth($paleta-colores, 8);
     h2{
         @include letra (500, 50px);
         color: white;
@@ -17,7 +17,7 @@
 
 .informacion{
     @include flex(flex, column, center, center, wrap);
-    background-color: nth($paleta-colores, 3);
+    background-color: nth($paleta-colores, 9);
     h2{
         @include letra (500, 50px);
         color: white;
