@@ -1,6 +1,6 @@
 
 
-$paleta-colores:black,white,rgb(34, 13, 126),red,rgb(184, 176, 176),burlywood;
+$paleta-colores:black,white,rgb(34, 13, 126),red,rgb(184, 176, 176),burlywood, #F2B892, #DD8A62,#E1CDC6;
 
 @mixin grid ($grid, $template-columns, $template-rows, $gap){
     display: $grid;

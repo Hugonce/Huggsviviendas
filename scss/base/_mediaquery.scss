@@ -179,7 +179,22 @@
 }
 
 @media screen and (max-width: 500px){
-
+    .departamento{
+        h2{
+            @include letra (600, 40px)
+        }
+        h3{
+            @include letra (500, 30px)
+        }
+        div{
+            .tarjeta{
+                width: 100%;
+                img{
+                    @include medidas (350px, 350px)
+                }
+            }
+        }
+    }
     .casas {
         div{
             @include grid (grid, repeat(1, 1fr), 300px, 10px);

@@ -101,102 +101,100 @@ header {
     height: 300px; }
 
 /*-------Compra y Venta-------*/
-.compra-casa h2 {
-  font-weight: 600;
-  font-size: 50px; }
-
-.compra-casa h3 {
-  font-weight: 500;
-  font-size: 35px; }
-
-.compra-casa section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #b8b0b0;
-  border: 5px blue solid; }
-  .compra-casa section img {
-    width: 700px;
-    height: 500px;
-    padding: 10px 0 10px 0; }
-  .compra-casa section div {
-    width: 500px; }
-    .compra-casa section div h3 {
-      font-weight: 500;
-      font-size: 25px; }
-    .compra-casa section div p {
-      font-weight: 400;
-      font-size: 20px; }
-
-.alquila h2 {
-  font-weight: 600;
-  font-size: 50px; }
-
-.alquila h3 {
-  font-weight: 500;
-  font-size: 35px; }
-
-.alquila section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #b8b0b0;
-  border: 5px blue solid; }
-  .alquila section div {
-    width: 500px; }
-    .alquila section div h3 {
-      font-weight: 500;
-      font-size: 25px; }
-    .alquila section div p {
-      font-weight: 400;
-      font-size: 20px; }
-  .alquila section img {
-    width: 700px;
-    height: 550px;
-    padding: 10px 0 10px 0; }
-
-.departamento h2 {
-  font-weight: 600;
-  font-size: 50px; }
-
-.departamento h3 {
-  font-weight: 500;
-  font-size: 35px; }
-
-.departamento div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap; }
-  .departamento div .tarjeta {
-    border: 3px blue solid;
-    width: 700px;
-    padding: 10px 0 10px 0; }
-    .departamento div .tarjeta img {
-      width: 400px;
-      height: 400px; }
-    .departamento div .tarjeta div {
-      width: 250px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap; }
-      .departamento div .tarjeta div h4 {
-        font-weight: 400;
+.compra-casa {
+  background-color: #F2B892; }
+  .compra-casa h2 {
+    font-weight: 600;
+    font-size: 50px; }
+  .compra-casa h3 {
+    font-weight: 500;
+    font-size: 35px; }
+  .compra-casa section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px blue solid; }
+    .compra-casa section img {
+      width: 700px;
+      height: 500px;
+      padding: 10px 0 10px 0; }
+    .compra-casa section div {
+      width: 500px; }
+      .compra-casa section div h3 {
+        font-weight: 500;
         font-size: 25px; }
-      .departamento div .tarjeta div p {
+      .compra-casa section div p {
         font-weight: 400;
         font-size: 20px; }
-      .departamento div .tarjeta div h5 {
-        border: 2px red solid;
-        font-weight: 400;
+
+.alquila {
+  background-color: #DD8A62; }
+  .alquila h2 {
+    font-weight: 600;
+    font-size: 50px; }
+  .alquila h3 {
+    font-weight: 500;
+    font-size: 35px; }
+  .alquila section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px blue solid; }
+    .alquila section div {
+      width: 500px; }
+      .alquila section div h3 {
+        font-weight: 500;
         font-size: 25px; }
+      .alquila section div p {
+        font-weight: 400;
+        font-size: 20px; }
+    .alquila section img {
+      width: 700px;
+      height: 550px;
+      padding: 10px 0 10px 0; }
+
+.departamento {
+  background-color: #E1CDC6; }
+  .departamento h2 {
+    font-weight: 600;
+    font-size: 50px; }
+  .departamento h3 {
+    font-weight: 500;
+    font-size: 35px; }
+  .departamento div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; }
+    .departamento div .tarjeta {
+      border: 3px blue solid;
+      width: 700px;
+      padding: 10px 0 10px 0; }
+      .departamento div .tarjeta img {
+        width: 400px;
+        height: 400px; }
+      .departamento div .tarjeta div {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; }
+        .departamento div .tarjeta div h4 {
+          font-weight: 400;
+          font-size: 25px; }
+        .departamento div .tarjeta div p {
+          font-weight: 400;
+          font-size: 20px; }
+        .departamento div .tarjeta div h5 {
+          border: 2px red solid;
+          font-weight: 400;
+          font-size: 25px; }
 
 /*-------Galeria-------*/
 .casas {
@@ -453,6 +451,17 @@ footer {
       grid-column: 1 / 3; } }
 
 @media screen and (max-width: 500px) {
+  .departamento h2 {
+    font-weight: 600;
+    font-size: 40px; }
+  .departamento h3 {
+    font-weight: 500;
+    font-size: 30px; }
+  .departamento div .tarjeta {
+    width: 100%; }
+    .departamento div .tarjeta img {
+      width: 350px;
+      height: 350px; }
   .casas div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

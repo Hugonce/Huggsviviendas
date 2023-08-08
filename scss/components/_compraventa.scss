@@ -1,6 +1,7 @@
 /*-------Compra y Venta-------*/
 
 .compra-casa{
+    background-color: nth($paleta-colores, 7);
     h2{
         @include letra (600, 50px)
     }
@@ -9,7 +10,6 @@
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
-        background-color: nth($paleta-colores, 5);
         border: 5px blue solid;
         img{
             @include medidas (700px, 500px);
@@ -28,6 +28,7 @@
 }
 
 .alquila{
+    background-color: nth($paleta-colores, 8);
     h2{
         @include letra (600, 50px)
     }
@@ -36,7 +37,6 @@
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
-        background-color: nth($paleta-colores, 5);
         border: 5px blue solid;
         div{
             width: 500px;
@@ -55,6 +55,7 @@
 }
 
 .departamento{
+    background-color: nth($paleta-colores, 9);
     h2{
         @include letra (600, 50px)
     }
