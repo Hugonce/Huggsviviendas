@@ -3,10 +3,12 @@
 .compra-casa{
     background-color: nth($paleta-colores, 7);
     h2{
-        @include letra (600, 50px)
+        @include letra (600, 50px);
+        color: nth($paleta-colores, 2);
     }
     h3{
-        @include letra (500, 35px)
+        @include letra (500, 35px);
+        color: nth($paleta-colores, 2);
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
@@ -18,10 +20,12 @@
         div{
             width: 500px;
             h3{
-                @include letra (500, 25px)
+                @include letra (500, 25px);
+                color: nth($paleta-colores, 2);
             }
             p{
-                @include letra (400, 20px)
+                @include letra (400, 20px);
+                color: nth($paleta-colores, 2);
             }
         }
     }
@@ -30,10 +34,12 @@
 .alquila{
     background-color: nth($paleta-colores, 8);
     h2{
-        @include letra (600, 50px)
+        @include letra (600, 50px);
+        color: nth($paleta-colores, 2);
     }
     h3{
-        @include letra (500, 35px)
+        @include letra (500, 35px);
+        color: nth($paleta-colores, 2);
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
@@ -41,10 +47,12 @@
         div{
             width: 500px;
             h3{
-                @include letra (500, 25px)
+                @include letra (500, 25px);
+                color: nth($paleta-colores, 2);
             }
             p{
-                @include letra (400, 20px)
+                @include letra (400, 20px);
+                color: nth($paleta-colores, 2);
             }
         }
         img{
@@ -57,10 +65,12 @@
 .departamento{
     background-color: nth($paleta-colores, 9);
     h2{
-        @include letra (600, 50px)
+        @include letra (600, 50px);
+        color: nth($paleta-colores, 2);
     }
     h3{
-        @include letra (500, 35px)
+        @include letra (500, 35px);
+        color: nth($paleta-colores, 2);
     }
     div{
         @include flex(flex, row, space-evenly, center, wrap);
@@ -76,13 +86,16 @@
                 @include flex(flex, column, space-between, center, wrap);
                 h4{
                     @include letra (400, 25px);
+                    color: nth($paleta-colores, 2);
                 }
                 p{
-                    @include letra (400, 20px)
+                    @include letra (400, 20px);
+                    color: nth($paleta-colores, 2);
                 }
                 h5{
                     border: 2px red solid;
-                    @include letra (400, 25px)
+                    @include letra (400, 25px);
+                    color: nth($paleta-colores, 2);
                 }
             }
             

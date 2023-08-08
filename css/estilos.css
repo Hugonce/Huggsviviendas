@@ -102,13 +102,15 @@ header {
 
 /*-------Compra y Venta-------*/
 .compra-casa {
-  background-color: #F2B892; }
+  background-color: #5C7470; }
   .compra-casa h2 {
     font-weight: 600;
-    font-size: 50px; }
+    font-size: 50px;
+    color: white; }
   .compra-casa h3 {
     font-weight: 500;
-    font-size: 35px; }
+    font-size: 35px;
+    color: white; }
   .compra-casa section {
     display: flex;
     flex-direction: row;
@@ -124,19 +126,23 @@ header {
       width: 500px; }
       .compra-casa section div h3 {
         font-weight: 500;
-        font-size: 25px; }
+        font-size: 25px;
+        color: white; }
       .compra-casa section div p {
         font-weight: 400;
-        font-size: 20px; }
+        font-size: 20px;
+        color: white; }
 
 .alquila {
-  background-color: #DD8A62; }
+  background-color: #3A4741; }
   .alquila h2 {
     font-weight: 600;
-    font-size: 50px; }
+    font-size: 50px;
+    color: white; }
   .alquila h3 {
     font-weight: 500;
-    font-size: 35px; }
+    font-size: 35px;
+    color: white; }
   .alquila section {
     display: flex;
     flex-direction: row;
@@ -148,23 +154,27 @@ header {
       width: 500px; }
       .alquila section div h3 {
         font-weight: 500;
-        font-size: 25px; }
+        font-size: 25px;
+        color: white; }
       .alquila section div p {
         font-weight: 400;
-        font-size: 20px; }
+        font-size: 20px;
+        color: white; }
     .alquila section img {
       width: 700px;
       height: 550px;
       padding: 10px 0 10px 0; }
 
 .departamento {
-  background-color: #E1CDC6; }
+  background-color: #202723; }
   .departamento h2 {
     font-weight: 600;
-    font-size: 50px; }
+    font-size: 50px;
+    color: white; }
   .departamento h3 {
     font-weight: 500;
-    font-size: 35px; }
+    font-size: 35px;
+    color: white; }
   .departamento div {
     display: flex;
     flex-direction: row;
@@ -187,14 +197,17 @@ header {
         flex-wrap: wrap; }
         .departamento div .tarjeta div h4 {
           font-weight: 400;
-          font-size: 25px; }
+          font-size: 25px;
+          color: white; }
         .departamento div .tarjeta div p {
           font-weight: 400;
-          font-size: 20px; }
+          font-size: 20px;
+          color: white; }
         .departamento div .tarjeta div h5 {
           border: 2px red solid;
           font-weight: 400;
-          font-size: 25px; }
+          font-size: 25px;
+          color: white; }
 
 /*-------Galeria-------*/
 .casas {
