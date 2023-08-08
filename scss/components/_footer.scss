@@ -1,7 +1,7 @@
 /*-------Footer-------*/
 
 footer{
-    background-color: rgb(184, 176, 176);
+    background-color: nth($paleta-colores, 5);
     section{
         @include flex (flex, row, space-between, center, wrap);
         a{

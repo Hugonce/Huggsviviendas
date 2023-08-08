@@ -1,11 +1,11 @@
 /*-------Galeria-------*/
 
 .casas{
-    background-color: black;
+    background-color: nth($paleta-colores, 1);
     h2{
         @include letra (500, 50px);
         text-align: center;
-        color: white;
+        color: nth($paleta-colores, 2);
     }
     div{
         @include grid (grid, repeat(5, 1fr), 400px, 20px);
@@ -29,16 +29,16 @@
 
 .presenta-interior{
     @include flex (flex, row, space-evenly, center, wrap);
-    background-color: burlywood;
+    background-color: nth($paleta-colores, 6);
     div{
         width: 700px;
         h2{
             @include letra (500, 40px);
-            color: rgb(0, 0, 0);
+            color: nth($paleta-colores, 1);
         }
         p{
             @include letra (400, 25px);
-            color: black;
+            color: nth($paleta-colores, 1);
         }
     }
     img{
@@ -47,11 +47,11 @@
 }
 
 .interiores{
-            background-color: rgb(165, 101, 17);
+            background-color: nth($paleta-colores, 6);
             h2{
                 text-align: center;
                 @include letra (500, 50px);
-                color: black;
+                color: nth($paleta-colores, 1);
             }
             div{
                 @include grid (grid, repeat(5, 1fr), 400px, 20px);

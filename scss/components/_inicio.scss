@@ -7,37 +7,37 @@
     div{
         h2{
             @include letra (500, 50px);
-            color: black;
+            color: nth($paleta-colores, 1);
             margin-bottom: 30px;
         }
         p{
             @include letra (400, 25px);
-            color: white; 
+            color: nth($paleta-colores, 2); 
         }
     }
 }
 
 .despedida{
     @include flex (flex, row, space-evenly, center, wrap);
-    background-color: rgb(75, 182, 182);
+    background-color: nth($paleta-colores, 3);
     padding: 5px;
     div{
         @include flex (flex, column, space-evenly, center, wrap);
         h2{
             @include letra (500, 50px);
-            color: black;
+            color: nth($paleta-colores, 1);
         }
         p{
             @include letra (400, 25px);
-            color: black;
+            color: nth($paleta-colores, 1);
         }
         a{
             text-decoration: none;
-            color: black;
+            color: nth($paleta-colores, 1);
             p{
                 @include letra (600, 25px);
-                border: 2px black solid;
-                background-color: red;
+                border: 2px nth($paleta-colores, 1) solid;
+                background-color: nth($paleta-colores, 4);
             }
             img{
                 @include medidas(50px, 50px)

@@ -9,7 +9,7 @@
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
-        background-color: rgb(184, 176, 176);
+        background-color: nth($paleta-colores, 5);
         border: 5px blue solid;
         img{
             @include medidas (700px, 500px);
@@ -36,7 +36,7 @@
     }
     section{
         @include flex(flex, row, space-evenly, center, wrap);
-        background-color: rgb(184, 176, 176);
+        background-color: nth($paleta-colores, 5);
         border: 5px blue solid;
         div{
             width: 500px;
