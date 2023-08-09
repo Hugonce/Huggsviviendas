@@ -19,7 +19,7 @@ body {
   font-weight: 500;
   font-size: 20px; }
 
-.carousel-inner div div h5 {
+.carousel-inner div div h2 {
   font-weight: 400;
   font-size: 40px;
   color: black;
@@ -50,7 +50,7 @@ header {
   flex-wrap: wrap;
   background-image: url(../img/fondo-2.jpg);
   padding: 5px; }
-  .frase div h2 {
+  .frase div h1 {
     font-weight: 500;
     font-size: 50px;
     color: black;
@@ -95,7 +95,7 @@ header {
         color: #3e20c4;
         transition: 1s; }
         .despedida div a p:hover {
-          color: red; }
+          color: #ad6a06; }
       .despedida div a img {
         transition: 2s;
         width: 50px;
@@ -109,12 +109,12 @@ header {
 /*-------Compra y Venta-------*/
 .compra-casa {
   background-color: #5C7470; }
-  .compra-casa h2 {
+  .compra-casa h1 {
     text-align: center;
     font-weight: 600;
     font-size: 50px;
     color: white; }
-  .compra-casa h3 {
+  .compra-casa h2 {
     text-align: center;
     font-weight: 500;
     font-size: 35px;
@@ -132,14 +132,24 @@ header {
     .compra-casa section div {
       width: 500px; }
       .compra-casa section div h3 {
+        text-align: center;
         font-weight: 500;
         font-size: 25px;
         color: white; }
       .compra-casa section div p {
-        text-align: center;
         font-weight: 400;
         font-size: 20px;
         color: white; }
+      .compra-casa section div button {
+        border-radius: 10px;
+        background-color: #ad6a06;
+        font-weight: 400;
+        font-size: 20px;
+        color: black;
+        transition: 1.1s; }
+        .compra-casa section div button:hover {
+          transform: scale(1.1);
+          background-color: burlywood; }
 
 .alquila {
   background-color: #3A4741; }
@@ -166,10 +176,19 @@ header {
         font-size: 25px;
         color: white; }
       .alquila section div p {
-        text-align: center;
         font-weight: 400;
         font-size: 20px;
         color: white; }
+      .alquila section div button {
+        background-color: #ad6a06;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        color: black;
+        transition: 1.2s; }
+        .alquila section div button:hover {
+          transform: scale(1.1);
+          background-color: burlywood; }
     .alquila section img {
       width: 700px;
       height: 550px;
@@ -235,7 +254,7 @@ header {
 /*-------Galeria-------*/
 .casas {
   background-color: black; }
-  .casas h2 {
+  .casas h1 {
     font-weight: 500;
     font-size: 50px;
     text-align: center;
@@ -300,6 +319,97 @@ header {
       width: 100%;
       height: 700px; }
 
+/*-------Sobre Nosotros-------*/
+.presentacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #202723; }
+  .presentacion div {
+    width: 700px; }
+    .presentacion div h1 {
+      text-align: center;
+      font-weight: 600;
+      font-size: 50px;
+      color: burlywood; }
+    .presentacion div h2 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 40px;
+      color: white; }
+    .presentacion div p {
+      font-weight: 400;
+      font-size: 20px;
+      color: white; }
+  .presentacion img {
+    padding: 5px;
+    width: 600px;
+    height: 400px; }
+
+.empleados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #3A4741; }
+  .empleados div {
+    width: 700px; }
+    .empleados div h2 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 40px;
+      color: burlywood; }
+    .empleados div h3 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      color: white; }
+    .empleados div p {
+      font-weight: 400;
+      font-size: 20px;
+      color: white; }
+  .empleados img {
+    padding: 5px;
+    width: 600px;
+    height: 400px; }
+
+.hoteles-pais {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #5C7470; }
+  .hoteles-pais div {
+    width: 700px; }
+    .hoteles-pais div h2 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 40px;
+      color: burlywood; }
+    .hoteles-pais div h3 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+      color: black; }
+    .hoteles-pais div h4 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 25px;
+      color: black; }
+    .hoteles-pais div h5 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 20px;
+      color: black; }
+  .hoteles-pais img {
+    padding: 5px;
+    width: 600px;
+    height: 400px; }
+
 /*-------Contacto-------*/
 .preguntas {
   display: flex;
@@ -308,7 +418,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   background-color: #3A4741; }
-  .preguntas h2 {
+  .preguntas h1 {
     font-weight: 500;
     font-size: 50px;
     color: white; }
@@ -490,7 +600,22 @@ footer {
       grid-column: 2 / 3;
       height: 100%; }
     .interiores div .int8 {
-      grid-column: 1 / 3; } }
+      grid-column: 1 / 3; }
+  .presentacion div {
+    width: 550px; }
+  .presentacion img {
+    width: 350px;
+    height: 300px; }
+  .empleados div {
+    width: 550px; }
+  .empleados img {
+    width: 350px;
+    height: 300px; }
+  .hoteles-pais div {
+    width: 550px; }
+  .hoteles-pais img {
+    width: 350px;
+    height: 300px; } }
 
 @media screen and (max-width: 500px) {
   .departamento h2 {

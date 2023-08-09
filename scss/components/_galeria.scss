@@ -2,7 +2,7 @@
 
 .casas{
     background-color: nth($paleta-colores, 1);
-    h2{
+    h1{
         @include letra (500, 50px);
         text-align: center;
         color: nth($paleta-colores, 2);

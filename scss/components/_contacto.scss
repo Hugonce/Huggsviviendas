@@ -3,9 +3,9 @@
 .preguntas{
     @include flex(flex, column, center, center, wrap);
     background-color: nth($paleta-colores, 8);
-    h2{
+    h1{
         @include letra (500, 50px);
-        color: white;
+        color: nth($paleta-colores, 2);
     }
     div{
         width: 50%;

@@ -5,7 +5,7 @@
     background-image: url(../img/fondo-2.jpg);
     padding: 5px;
     div{
-        h2{
+        h1{
             @include letra (500, 50px);
             color: nth($paleta-colores, 1);
             margin-bottom: 30px;
