@@ -5,7 +5,7 @@
     h1{
         text-align: center;
         @include letra (600, 50px);
-        color: nth($paleta-colores, 2);
+        color: nth($paleta-colores, 6);
     }
     h2{
         text-align: center;
@@ -23,7 +23,7 @@
             h3{
                 text-align: center;
                 @include letra (500, 25px);
-                color: nth($paleta-colores, 2);
+                color: nth($paleta-colores, 6);
             }
             p{
                 @include letra (400, 20px);
@@ -49,7 +49,7 @@
     h2{
         text-align: center;
         @include letra (600, 50px);
-        color: nth($paleta-colores, 2);
+        color: nth($paleta-colores, 6);
     }
     h3{
         text-align: center;
@@ -62,7 +62,7 @@
             width: 500px;
             h3{
                 @include letra (500, 25px);
-                color: nth($paleta-colores, 2);
+                color: nth($paleta-colores, 6);
             }
             p{
                 @include letra (400, 20px);
@@ -92,7 +92,7 @@
     h2{
         text-align: center;
         @include letra (600, 50px);
-        color: nth($paleta-colores, 2);
+        color: nth($paleta-colores, 6);
     }
     h3{
         text-align: center;
@@ -114,7 +114,7 @@
                 @include flex(flex, column, space-between, center, wrap);
                 h4{
                     @include letra (400, 25px);
-                    color: nth($paleta-colores, 2);
+                    color: nth($paleta-colores, 6);
                 }
                 p{
                     text-align: center;
