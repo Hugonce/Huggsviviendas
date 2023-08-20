@@ -220,6 +220,9 @@
     }
     .casas {
         div{
+            img{
+                padding: 0 10px 0 10px;
+            }
             @include grid (grid, repeat(1, 1fr), 300px, 10px);
             .vivienda1{
                 grid-column: 1 / 2;
@@ -250,6 +253,9 @@
     
     .interiores {
         div{
+            img{
+                padding: 0 10px 0 10px;
+            }
             @include grid (grid, repeat(1, 1fr), 300px, 10px);
             .int1{
                 grid-column: 1 / 2;

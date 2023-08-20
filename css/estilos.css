@@ -634,6 +634,8 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 300px;
     gap: 10px; }
+    .casas div img {
+      padding: 0 10px 0 10px; }
     .casas div .vivienda1 {
       grid-column: 1 / 2; }
     .casas div .vivienda6 {
@@ -655,6 +657,8 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 300px;
     gap: 10px; }
+    .interiores div img {
+      padding: 0 10px 0 10px; }
     .interiores div .int1 {
       grid-column: 1 / 2; }
     .interiores div .int4 {
