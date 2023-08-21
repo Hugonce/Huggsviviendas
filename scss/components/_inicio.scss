@@ -8,10 +8,12 @@
         h1{
             @include letra (500, 50px);
             color: nth($paleta-colores, 1);
+            
             margin-bottom: 30px;
         }
         p{
             @include letra (400, 25px);
+            background-color: nth($paleta-colores, 11);
             color: nth($paleta-colores, 2); 
         }
     }

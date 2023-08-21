@@ -10,7 +10,8 @@ burlywood,
 #5C7470, 
 #3A4741,
 #202723,
-#8EBBA7;
+#8EBBA7,
+rgba(0, 0, 0, 0.651);
 
 @mixin grid ($grid, $template-columns, $template-rows, $gap){
     display: $grid;
